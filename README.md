@@ -1,3 +1,3 @@
 # Portfolio-AkashM
 
-## Click [here](https://akashmore1.github.io/Portfolio-AkashM) to visit portfolio.
+## Click [here to visit portfolio](https://akashmore1.github.io/Portfolio-AkashM).
