@@ -41,6 +41,10 @@ body {
   background-image: url(./assets/bg-texture.png);
 }
 
+section {
+  height: 100vh;
+}
+
 /* ================= General styles =================== */
 
 .container {
