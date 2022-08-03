@@ -1,30 +1,35 @@
 import React from "react";
 
-import CTA from "./CTA";
-import HeaderSocials from "./HeaderSocials";
-
-import ME from "../../assets/ME.jpg";
-
 import "./Header.css";
 
-function Header() {
+const Header = () => {
   return (
-    <header id="home">
-      <div className=".container .header__container">
-        <h5>Hello I'm</h5>
-        <h1>Akash More</h1>
-        <h5 className="text-light">Front-end Developer</h5>
-        <CTA />
-        <HeaderSocials />
-        <div className="me">
-          <img src={ME} alt="me" />
-        </div>
-        <a href="#contact" className="scroll__down">
-          Scroll Down
-        </a>
+    <section className="header__section">
+      <ul>
+        <li>
+          <a>Home</a>
+        </li>
+        <li>
+          <a>About</a>
+        </li>
+        <li>
+          <a>Experience</a>
+        </li>
+        <li>
+          <a>Portfolio</a>
+        </li>
+        <li>
+          <a>Skills</a>
+        </li>
+        <li>
+          <a>Let's Connect</a>
+        </li>
+      </ul>
+      <div className="source__code">
+        <a>See Source Code</a>
       </div>
-    </header>
+    </section>
   );
-}
+};
 
 export default Header;

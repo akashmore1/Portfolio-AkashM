@@ -1,82 +1,70 @@
-header {
-  height: 100vh;
-  padding-top: 7rem;
-  overflow: hidden;
-  text-align: center;
+.header__section {
+  position: fixed;
+  top: -152px;
+  width: 100%;
+  height: 8rem;
+  z-index: 4;
+  background: rgb(19, 16, 16);
+  vertical-align: center;
 }
 
-.header__container {
-  height: 100%;
-  position: relative;
-  text-align: center;
-}
-
-/* ===================== CTA =================== */
-.cta {
-  margin-top: 2.5rem;
+ul {
   display: flex;
-  gap: 1.2rem;
-  justify-content: center;
+  width: 80%;
 }
 
-/* ===================== Header Social =================== */
-.header__socials {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-  position: absolute;
-  left: 14rem;
-  top: 33rem;
-}
-
-/* .header__socials::after {
-  content: "";
-  width: 1px;
+ul > li {
+  padding: 3rem 2rem;
+  vertical-align: center;
   height: 2rem;
-  background: var(--color-primary);
-} */
+  text-align: center;
+}
 
-/* ===================== Image =================== */
-.me {
-  background-image: linear-gradient(var(--color-primary), transperent);
-  width: 22rem;
-  height: 28rem;
+ul a {
+  display: inline-block;
+  border-radius: 20px;
+  height: 3.7rem;
+  width: max-content;
+  padding: 1rem;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+}
+
+ul a:hover {
+  background: rgba(19, 16, 16, 0.4);
+}
+
+.source__code {
+  text-align: right;
+  float: right;
   position: absolute;
-  left: calc(50% - 11rem);
-  margin-top: 4rem;
-  border-radius: 0.4rem;
-  overflow: hidden;
+  right: 3rem;
+  top: 3.6rem;
 }
 
-/* ===================== Scroll Down =================== */
-.scroll__down {
-  position: absolute;
-  right: 14rem;
-  top: 35.4rem;
-  transform: rotate(90deg);
+.source__code > a {
+  border: 1px solid white;
+  padding: 0.4rem 1rem;
+  border-radius: 10px;
+  text-align: right;
+  float: right;
+  font-weight: bolder;
+  font-size: larger;
+  background: #4db5ff;
+  color: black;
+  cursor: pointer;
 }
 
-/* ================= Media Queries (Medium Devices) =================== */
-
-@media screen and (max-width: 1024px) {
-  header {
-    height: 68vh;
-  }
-  .header__socials {
-    left: 4rem;
-  }
-  .scroll__down {
-    right: 2rem;
-  }
+.source__code > a:hover {
+  background: white;
+  color: black;
 }
-/* ================= Media Queries (Small Devices) =================== */
 
 @media screen and (max-width: 600px) {
-  header {
-    height: 100vh;
-  }
-  .header__socials,
-  .scroll__down {
+  .header__section {
     display: none;
   }
 }
