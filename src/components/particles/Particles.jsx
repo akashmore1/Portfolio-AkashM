@@ -32,7 +32,7 @@ const ParticlesBg = () => {
         interactivity: {
           events: {
             onClick: {
-              enable: true,
+              enable: false,
               mode: "push",
             },
             onHover: {
@@ -72,7 +72,7 @@ const ParticlesBg = () => {
               default: "bounce",
             },
             random: false,
-            speed: 1,
+            speed: 0.4,
             straight: false,
           },
           number: {
@@ -80,7 +80,7 @@ const ParticlesBg = () => {
               enable: true,
               area: 700,
             },
-            value: 140,
+            value: 80,
           },
           opacity: {
             value: 0.5,
@@ -89,7 +89,7 @@ const ParticlesBg = () => {
             type: "circle",
           },
           size: {
-            value: { min: 1, max: 3 },
+            value: { min: 1, max: 2 },
           },
         },
         detectRetina: true,
