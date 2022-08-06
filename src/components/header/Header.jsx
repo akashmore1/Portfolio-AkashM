@@ -26,7 +26,12 @@ const Header = () => {
         </li>
       </ul>
       <div className="source__code">
-        <a>See Source Code</a>
+        <a
+          href="https://github.com/akashmore1/Portfolio-AkashM"
+          target="_blank"
+        >
+          See Source Code
+        </a>
       </div>
     </section>
   );

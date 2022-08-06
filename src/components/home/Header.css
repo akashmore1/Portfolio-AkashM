@@ -4,12 +4,25 @@
   overflow: hidden;
   text-align: center;
   width: 100vw;
+  position: relative;
 }
 
 .header__container {
   height: 100%;
   position: relative;
   text-align: center;
+  display: inline-block;
+  right: 0;
+  top: -7rem;
+  /* border: 1px solid white; */
+}
+
+.header__container__info {
+  display: inline-block;
+  /* border: 1px solid white; */
+  position: absolute;
+  left: 9rem;
+  top: 10rem;
 }
 
 /* ===================== CTA =================== */
@@ -20,22 +33,37 @@
   justify-content: center;
 }
 
-/* ===================== Header Social =================== */
-.header__socials {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-  position: absolute;
-  left: 14rem;
-  top: 33rem;
+/* ===================== Paragraph ================== */
+.home-info__intro {
+  margin-top: 2rem;
+  line-height: 2;
+  text-align: center;
 }
 
-/* .header__socials::after {
-  content: "";
-  width: 1px;
-  height: 2rem;
-  background: var(--color-primary);
-} */
+/* ===================== Header Social =================== */
+.header__socials {
+  position: absolute;
+  right: 7rem;
+  top: 12rem;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2px);
+  padding-top: 2rem;
+  border-radius: 20px;
+}
+
+.social__links {
+  margin-top: 3rem;
+}
+
+.social__links a {
+  margin: 2rem;
+}
+
+.social__link {
+  margin: 2rem;
+  vertical-align: middle;
+}
 
 /* ===================== Image =================== */
 .me {
