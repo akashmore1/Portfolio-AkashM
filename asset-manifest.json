@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio-AkashM/static/css/main.1184ea74.css",
-    "main.js": "/Portfolio-AkashM/static/js/main.6f8b5e3a.js",
+    "main.css": "/Portfolio-AkashM/static/css/main.94bdde83.css",
+    "main.js": "/Portfolio-AkashM/static/js/main.0b614d99.js",
     "static/media/AkashMore-resume.pdf": "/Portfolio-AkashM/static/media/AkashMore-resume.1d193d25457e968019a2.pdf",
     "index.html": "/Portfolio-AkashM/index.html",
-    "main.1184ea74.css.map": "/Portfolio-AkashM/static/css/main.1184ea74.css.map",
-    "main.6f8b5e3a.js.map": "/Portfolio-AkashM/static/js/main.6f8b5e3a.js.map"
+    "main.94bdde83.css.map": "/Portfolio-AkashM/static/css/main.94bdde83.css.map",
+    "main.0b614d99.js.map": "/Portfolio-AkashM/static/js/main.0b614d99.js.map"
   },
   "entrypoints": [
-    "static/css/main.1184ea74.css",
-    "static/js/main.6f8b5e3a.js"
+    "static/css/main.94bdde83.css",
+    "static/js/main.0b614d99.js"
   ]
 }
