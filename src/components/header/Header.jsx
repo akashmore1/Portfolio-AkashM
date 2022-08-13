@@ -9,21 +9,21 @@ const Header = () => {
         <li>
           <a>Home</a>
         </li>
-        <li>
+        {/* <li>
           <a>About</a>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <a>Experience</a>
-        </li>
+        </li> */}
         <li>
           <a>Portfolio</a>
         </li>
-        <li>
+        {/* <li>
           <a>Skills</a>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <a>Let's Connect</a>
-        </li>
+        </li> */}
       </ul>
       <div className="source__code">
         <a
