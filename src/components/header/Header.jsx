@@ -7,7 +7,7 @@ const Header = () => {
     <section className="header__section">
       <ul>
         <li>
-          <a>Home</a>
+          <a href="#home">Home</a>
         </li>
         {/* <li>
           <a>About</a>
@@ -16,14 +16,14 @@ const Header = () => {
           <a>Experience</a>
         </li> */}
         <li>
-          <a>Portfolio</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
         {/* <li>
           <a>Skills</a>
         </li> */}
-        {/* <li>
-          <a>Let's Connect</a>
-        </li> */}
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
       <div className="source__code">
         <a
