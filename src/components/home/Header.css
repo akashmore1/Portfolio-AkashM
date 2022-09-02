@@ -5,6 +5,8 @@
   text-align: center;
   width: 100vw;
   position: relative;
+  /* border: 1px solid white; */
+  /* top: 30rem; */
 }
 
 .header__container {
