@@ -1,7 +1,9 @@
 import React from "react";
-import "./Contact.css";
+
 import { MdOutlineEmail } from "react-icons/md";
 import { RiLinkedinBoxFill } from "react-icons/ri";
+
+import "./Contact.css";
 
 const Contact = () => {
   return (
