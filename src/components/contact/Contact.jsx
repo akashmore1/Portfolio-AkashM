@@ -14,7 +14,7 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail />
+            <MdOutlineEmail className="contact_option-icon" />
             <h4>Email</h4>
             <h5>dummy@gmail.com</h5>
             <a href="mailto:akashkmore1@gmail.com" target="_blank">
@@ -22,7 +22,7 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <RiLinkedinBoxFill />
+            <RiLinkedinBoxFill className="contact_option-icon" />
             <h4>Linkedin Messenger</h4>
             <h5>Akash More</h5>
             <a href="dummy@gmail.com" target="_blank">
