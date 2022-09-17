@@ -61,5 +61,5 @@ textarea {
 
 input:hover,
 textarea:hover {
-  border: 2px solid var(--color-bg-variant);
+  border: 2px solid rgb(89, 103, 132);
 }
