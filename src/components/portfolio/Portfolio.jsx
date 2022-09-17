@@ -34,7 +34,7 @@ function Portfolio() {
             <div>
               <img src={Snake} alt="img" />
             </div>
-            <h3>Snake Game</h3>
+            <h3>Snake Game(Work in Progress)</h3>
             <div className="portfolio__item-cta">
               <a href="https://www.github.com" target="_blank" className="btn">
                 Github

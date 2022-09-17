@@ -8,6 +8,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <section id="contact">
+      {/* <div className="contact__wrapper"> */}
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
@@ -16,7 +17,7 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact_option-icon" />
             <h4>Email</h4>
-            <h5>dummy@gmail.com</h5>
+            <h5>akashkmore1@gmail.com</h5>
             <a href="mailto:akashkmore1@gmail.com" target="_blank">
               Send a Message
             </a>
@@ -25,7 +26,10 @@ const Contact = () => {
             <RiLinkedinBoxFill className="contact_option-icon" />
             <h4>Linkedin Messenger</h4>
             <h5>Akash More</h5>
-            <a href="dummy@gmail.com" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/akash-k-more44/"
+              target="_blank"
+            >
               Send a Message
             </a>
           </article>
@@ -52,6 +56,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      {/* </div> */}
     </section>
   );
 };
