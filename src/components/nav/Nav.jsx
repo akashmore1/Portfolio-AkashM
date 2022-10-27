@@ -21,28 +21,10 @@ function Nav() {
         <AiOutlineHome />
       </a>
       <a
-        href="#about"
-        className={activeNav === "#about" ? "active" : ""}
+        href="#portfolio"
+        className={activeNav === "#portfolio" ? "active" : ""}
         onClick={() => {
-          setActiveNav("#about");
-        }}
-      >
-        <AiOutlineUser />
-      </a>
-      <a
-        href="#experience"
-        className={activeNav === "#experience" ? "active" : ""}
-        onClick={() => {
-          setActiveNav("#experience");
-        }}
-      >
-        <FiBook />
-      </a>
-      <a
-        href="#services"
-        className={activeNav === "#services" ? "active" : ""}
-        onClick={() => {
-          setActiveNav("#services");
+          setActiveNav("#portfolio");
         }}
       >
         <RiServiceLine />
