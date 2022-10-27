@@ -1,113 +1,69 @@
-.home {
-  height: 100vh;
-  padding-top: 7rem;
-  overflow: hidden;
-  text-align: center;
+.header__container {
+  display: flex;
+  flex-direction: column;
+
   width: 100vw;
-  position: relative;
-  /* border: 1px solid white; */
-  /* top: 30rem; */
+  gap: 4rem;
+  padding: 1rem;
+  padding-top: 2rem;
+  min-height: 100vh;
+  align-items: center;
 }
 
-.header__container {
-  height: 100%;
-  position: relative;
+.home h1 {
   text-align: center;
-  display: inline-block;
-  right: 0;
-  top: -7rem;
-  /* border: 1px solid white; */
 }
 
 .header__container__info {
-  display: inline-block;
-  /* border: 1px solid white; */
-  position: absolute;
-  left: 9rem;
-  top: 10rem;
-}
-
-/* ===================== CTA =================== */
-.cta {
-  margin-top: 2.5rem;
   display: flex;
-  gap: 1.2rem;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
-/* ===================== Paragraph ================== */
 .home-info__intro {
-  margin-top: 2rem;
-  line-height: 2;
+  text-align: center;
+  max-width: 300px;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
   text-align: center;
 }
+.cta > a {
+  width: 14rem;
+}
 
-/* ===================== Header Social =================== */
 .header__socials {
-  position: absolute;
-  right: 7rem;
-  top: 12rem;
-  display: inline-block;
-  background: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(2px);
-  padding-top: 2rem;
-  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  align-items: center;
+  background: rgba(62, 61, 61, 0.4);
+  backdrop-filter: blur(1px);
+  padding: 1rem;
+  padding-bottom: 1.9rem;
+  border-radius: 10px;
+  max-width: 380px;
+  width: 100%;
 }
 
 .social__links {
-  margin-top: 3rem;
-}
-
-.social__links a {
-  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .social__link {
-  margin: 2rem;
-  vertical-align: middle;
+  display: flex;
+  align-content: center;
+  gap: 3rem;
 }
 
-/* ===================== Image =================== */
-.me {
-  background-image: linear-gradient(var(--color-primary), transperent);
-  width: 22rem;
-  height: 28rem;
-  position: absolute;
-  left: calc(50% - 11rem);
-  margin-top: 4rem;
-  border-radius: 0.4rem;
-  overflow: hidden;
-}
-
-/* ===================== Scroll Down =================== */
-.scroll__down {
-  position: absolute;
-  right: 14rem;
-  top: 35.4rem;
-  transform: rotate(90deg);
-}
-
-/* ================= Media Queries (Medium Devices) =================== */
-
-@media screen and (max-width: 1024px) {
-  header {
-    height: 68vh;
-  }
-  .header__socials {
-    left: 4rem;
-  }
-  .scroll__down {
-    right: 2rem;
-  }
-}
-/* ================= Media Queries (Small Devices) =================== */
-
-@media screen and (max-width: 600px) {
-  header {
-    height: 100vh;
-  }
-  .header__socials,
-  .scroll__down {
-    display: none;
-  }
+.social__link > a {
+  display: flex;
+  align-items: center;
 }

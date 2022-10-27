@@ -17,18 +17,18 @@ const HeaderSocials = () => {
       <div className="social__links">
         <div className="social__link">
           <a href="https://www.linkedin.com/in/akash-k-more44/" target="_blank">
-            <BsLinkedin size={70} />
+            <BsLinkedin size={69} />
           </a>
-          <a href="https://github.com/akashmore1" target="_blank">
-            <FaGithub size={77} />
+          <a href="https://twitter.com/imAkashMore" target="_blank">
+            <FaTwitterSquare size={80} />
           </a>
         </div>
         <div className="social__link">
           <a href="https://www.instagram.com/akashmore1/" target="_blank">
             <GrInstagram size={74} />
           </a>
-          <a href="https://twitter.com/imAkashMore" target="_blank">
-            <FaTwitterSquare size={77} />
+          <a href="https://github.com/akashmore1" target="_blank">
+            <FaGithub size={77} />
           </a>
         </div>
       </div>

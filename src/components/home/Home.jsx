@@ -16,10 +16,8 @@ function Home() {
           <h1>Akash More</h1>
           <h5 className="text-light">Front-end Developer</h5>
           <p className="home-info__intro">
-            Front-end developer with <br /> in-depth knowledge of <br />
-            JavaScript, React JS, <br />
-            software development, <br />
-            basic testing and agile development.
+            Front-end developer with in-depth knowledge of JavaScript, React JS,
+            software development, basic testing and agile development.
           </p>
           <CTA />
         </div>

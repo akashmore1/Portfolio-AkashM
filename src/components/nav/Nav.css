@@ -11,7 +11,7 @@ nav {
   gap: 0.8rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
-  display: none;
+  display: flex;
   border: rgb(41, 45, 75) 1px solid;
 }
 
