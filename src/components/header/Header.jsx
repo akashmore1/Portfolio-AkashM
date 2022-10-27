@@ -9,18 +9,9 @@ const Header = () => {
         <li>
           <a href="#home">Home</a>
         </li>
-        {/* <li>
-          <a>About</a>
-        </li> */}
-        {/* <li>
-          <a>Experience</a>
-        </li> */}
         <li>
           <a href="#portfolio">Portfolio</a>
         </li>
-        {/* <li>
-          <a>Skills</a>
-        </li> */}
         <li>
           <a href="#contact">Contact</a>
         </li>
