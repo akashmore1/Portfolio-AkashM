@@ -3,8 +3,6 @@ import React from "react";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
 
-// import ME from "../../assets/ME.jpg";
-
 import "./Header.css";
 
 function Home() {
