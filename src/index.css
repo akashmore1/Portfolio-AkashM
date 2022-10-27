@@ -42,15 +42,10 @@ body {
   /* background-image: url(./assets/bg-texture.png); */
 }
 
-section {
-  height: 100vh;
-}
-
 /* ================= General styles =================== */
 
 .container {
-  width: var(--container-width-lg);
-  margin: 0 auto;
+  margin: 0;
 }
 
 h1,
@@ -63,10 +58,6 @@ h5 {
 
 h1 {
   font-size: 2.5rem;
-}
-
-section {
-  margin-top: 8rem;
 }
 
 section > h2,
@@ -119,28 +110,4 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
-}
-
-/* ================= Media Queries (Medium Devices) =================== */
-
-@media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-
-  section {
-    margin-top: 6rem;
-  }
-}
-
-/* ================= Media Queries (Small Devices) =================== */
-
-@media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
-  }
-
-  section > h2 {
-    margin-top: 2rem;
-  }
 }

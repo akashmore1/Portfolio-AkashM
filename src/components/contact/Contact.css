@@ -1,20 +1,24 @@
-#contact {
-  /* border: 1px solid white; */
-  position: relative;
-  padding-top: 14rem;
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  height: max-content;
+  padding-bottom: 8rem;
+  padding-top: 6.4rem;
 }
 
-.container.contact__container {
-  width: 58%;
-  display: grid;
-  grid-template-columns: 30% 58%;
-  gap: 12%;
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
 }
 
 .contact__options {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 2rem;
 }
 
 .contact__option {
@@ -46,11 +50,12 @@ form {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+  align-items: center;
 }
 
 input,
 textarea {
-  width: 100%;
+  width: 90%;
   padding: 1.5rem;
   border-radius: 0.5rem;
   background: transparent;
@@ -62,4 +67,44 @@ textarea {
 input:hover,
 textarea:hover {
   border: 2px solid rgb(89, 103, 132);
+}
+
+form .btn-primary {
+  font-size: 1.2rem;
+  /* font-weight: bold; */
+}
+
+@media screen and (min-width: 860px) {
+  .contact {
+    padding-bottom: 1rem;
+    padding-top: 8.8rem;
+  }
+
+  .contact__container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    gap: 2rem;
+    /* border: 1px solid white; */
+  }
+
+  .contact__option {
+    margin-left: 10rem;
+  }
+
+  form {
+    align-items: flex-start;
+    width: 50%;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    max-width: 34rem;
+  }
+
+  textarea {
+    height: 12rem;
+  }
 }

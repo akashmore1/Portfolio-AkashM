@@ -1,5 +1,5 @@
 nav {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(35, 33, 33, 0.3);
   width: max-content;
   padding: 0.7rem 1.7rem;
   z-index: 2;
@@ -11,7 +11,8 @@ nav {
   gap: 0.8rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
-  display: none;
+  display: flex;
+  border: rgb(41, 45, 75) 1px solid;
 }
 
 nav a {
@@ -32,8 +33,8 @@ nav a.active {
   color: var(--color-white);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 860px) {
   nav {
-    display: flex;
+    display: none;
   }
 }
