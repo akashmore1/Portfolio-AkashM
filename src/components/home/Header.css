@@ -7,7 +7,6 @@
   padding-top: 2rem;
   min-height: 100vh;
   align-items: center;
-  padding-top: 6.4rem;
 }
 
 .home h1 {
@@ -66,4 +65,11 @@
 .social__link > a {
   display: flex;
   align-items: center;
+}
+
+@media screen and (min-width: 860px) {
+  .header__container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
