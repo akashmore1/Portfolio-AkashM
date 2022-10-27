@@ -27,6 +27,9 @@ function Portfolio() {
               >
                 Live Demo
               </a>
+              <a href="https://www.github.com" target="_blank" className="btn">
+                Github
+              </a>
             </div>
           </div>
         </article>
@@ -37,15 +40,15 @@ function Portfolio() {
             </div>
             <h3>Snake Game(Work in Progress)</h3>
             <div className="portfolio__item-cta">
-              <a href="https://www.github.com" target="_blank" className="btn">
-                Github
-              </a>
               <a
                 href="https://www.github.com"
                 target="_blank"
                 className="btn btn-primary"
               >
                 Live Demo
+              </a>
+              <a href="https://www.github.com" target="_blank" className="btn">
+                Github
               </a>
             </div>
           </div>
@@ -58,18 +61,18 @@ function Portfolio() {
             <h3>Tik Tac Toe Game</h3>
             <div className="portfolio__item-cta">
               <a
-                href="https://github.com/akashmore1/Tik-Tak-Toe"
-                target="_blank"
-                className="btn"
-              >
-                Github
-              </a>
-              <a
                 href="https://akashmore1.github.io/Tik-Tak-Toe/"
                 target="_blank"
                 className="btn btn-primary"
               >
                 Live Demo
+              </a>
+              <a
+                href="https://github.com/akashmore1/Tik-Tak-Toe"
+                target="_blank"
+                className="btn"
+              >
+                Github
               </a>
             </div>
           </div>
