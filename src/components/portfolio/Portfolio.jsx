@@ -12,7 +12,7 @@ function Portfolio() {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <div>
+            <div className="img">
               <img src={Img} alt="img" />
             </div>
             <h3>Voice Automated Robot</h3>
@@ -35,7 +35,7 @@ function Portfolio() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <div>
+            <div className="img">
               <img src={Snake} alt="img" />
             </div>
             <h3>Snake Game(Work in Progress)</h3>
@@ -55,7 +55,7 @@ function Portfolio() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <div>
+            <div className="img">
               <img src={TikTacToe} alt="img" />
             </div>
             <h3>Tik Tac Toe Game</h3>

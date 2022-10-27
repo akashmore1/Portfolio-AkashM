@@ -60,3 +60,14 @@
   width: 90%;
   text-align: center;
 }
+
+@media screen and (min-width: 860px) {
+  .portfolio__container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .portfolio__item-image > .img {
+    height: 12rem;
+  }
+}
