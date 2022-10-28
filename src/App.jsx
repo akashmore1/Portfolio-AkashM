@@ -8,11 +8,13 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 
 import ParticlesBg from "./components/particles/Particles";
+import Cursor from "./features/Cursor";
 
 const App = () => {
   return (
     <>
       <ParticlesBg />
+      <Cursor />
       <Header />
       <Home />
       <Nav />

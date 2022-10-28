@@ -23,7 +23,6 @@ ul a {
   text-align: center;
   font-weight: bold;
   font-size: larger;
-  cursor: pointer;
 }
 
 .source__code {
@@ -40,7 +39,6 @@ ul a {
   font-size: larger;
   background: #4db5ff;
   color: black;
-  cursor: pointer;
 }
 
 .source__code > a:hover {
