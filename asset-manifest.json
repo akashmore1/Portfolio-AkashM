@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio-AkashM/static/css/main.639505fb.css",
-    "main.js": "/Portfolio-AkashM/static/js/main.cbfe51d6.js",
+    "main.css": "/Portfolio-AkashM/static/css/main.e374e2f2.css",
+    "main.js": "/Portfolio-AkashM/static/js/main.a6f10cbc.js",
     "static/media/tik-tac-toe.png": "/Portfolio-AkashM/static/media/tik-tac-toe.1944299b1d80cabc9c08.png",
     "static/media/AkashMore-resume.pdf": "/Portfolio-AkashM/static/media/AkashMore-resume.f125a0fb1d3d3ed34f9b.pdf",
     "static/media/maxresdefault.jpeg": "/Portfolio-AkashM/static/media/maxresdefault.660c798f4d2c912edd7c.jpeg",
     "index.html": "/Portfolio-AkashM/index.html",
-    "main.639505fb.css.map": "/Portfolio-AkashM/static/css/main.639505fb.css.map",
-    "main.cbfe51d6.js.map": "/Portfolio-AkashM/static/js/main.cbfe51d6.js.map"
+    "main.e374e2f2.css.map": "/Portfolio-AkashM/static/css/main.e374e2f2.css.map",
+    "main.a6f10cbc.js.map": "/Portfolio-AkashM/static/js/main.a6f10cbc.js.map"
   },
   "entrypoints": [
-    "static/css/main.639505fb.css",
-    "static/js/main.cbfe51d6.js"
+    "static/css/main.e374e2f2.css",
+    "static/js/main.a6f10cbc.js"
   ]
 }
