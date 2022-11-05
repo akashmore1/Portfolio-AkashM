@@ -20,13 +20,19 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 6px;
-  height: 6px;
-  background-color: rgb(138, 170, 194);
+  width: 30px;
+  height: 30px;
+  background-color: rgba(77, 181, 255, 0.4);
   border-radius: 100%;
   transform: translate(-50%, -50%);
   z-index: 999;
   pointer-events: none;
+  /* -webkit-transition-duration: 100ms; */
+  /* transition-duration: 100ms; */
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  will-change: width, height, transform, border;
+  /* display: none; */
 }
 
 /* below code is used from step6 */
@@ -35,8 +41,12 @@
   height: 50px;
   border-width: 3px;
   background-color: rgba(77, 181, 255, 0.6);
+  display: none;
 }
 
 .dot.hovered {
-  display: none;
+  width: 50px;
+  height: 50px;
+  border-width: 3px;
+  background-color: rgba(77, 181, 255, 0.6);
 }
