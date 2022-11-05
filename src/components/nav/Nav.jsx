@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { FiBook, FiMessageCircle } from "react-icons/fi";
@@ -8,6 +8,20 @@ import "./Nav.css";
 
 function Nav() {
   const [activeNav, setActiveNav] = useState("#home");
+
+  const changeNavbarColor = () => {
+    if (window.scrollY > 0 && window.scrollY < 621) {
+      setActiveNav("#home");
+    } else if (window.scrollY >= 621 && window.scrollY < 2124) {
+      setActiveNav("#portfolio");
+    } else if (window.scrollY >= 2124) {
+      setActiveNav("#contact");
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeNavbarColor);
+  });
 
   return (
     <nav>

@@ -8,25 +8,19 @@
   background: transparent;
   backdrop-filter: blur(4px);
   vertical-align: center;
-  /* border: 1px solid white; */
   display: none;
 }
 
 ul {
   display: flex;
-  /* border: 1px solid white; */
+
   gap: 3rem;
-  /* margin-left: 1rem; */
 }
 
 ul a {
   text-align: center;
   font-weight: bold;
   font-size: larger;
-}
-
-.source__code {
-  /* margin-right: 1rem; */
 }
 
 .source__code > a {
@@ -46,12 +40,16 @@ ul a {
   color: black;
 }
 
+.active {
+  color: var(--color-white);
+}
+
 @media screen and (min-width: 860px) {
   .header__section {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24rem;
+    gap: 21rem;
   }
 }
 
