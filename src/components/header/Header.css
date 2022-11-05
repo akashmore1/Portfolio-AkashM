@@ -16,7 +16,7 @@ ul {
   display: flex;
   /* border: 1px solid white; */
   gap: 3rem;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
 }
 
 ul a {
@@ -26,7 +26,7 @@ ul a {
 }
 
 .source__code {
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
 }
 
 .source__code > a {
@@ -49,7 +49,17 @@ ul a {
 @media screen and (min-width: 860px) {
   .header__section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 24rem;
+  }
+}
+
+@media screen and (min-width: 1314px) {
+  .header__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50rem;
   }
 }
