@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
+import { MouseContext } from "../../features/MouseContext";
+
 import "./Portfolio.css";
 import Img from "../../assets/maxresdefault.jpeg";
 import Snake from "../../assets/snake.jpeg";
 import TikTacToe from "../../assets/tik-tac-toe.png";
 
 function Portfolio() {
+  const { cursorChangeHandler } = useContext(MouseContext);
   return (
     <section id="portfolio" className="portfolio">
       <h5>My Recent Work</h5>
@@ -24,10 +27,18 @@ function Portfolio() {
                 href="https://youtube.com/shorts/rIjHnXHsLiI?feature=share"
                 target="_blank"
                 className="btn btn-primary"
+                onMouseEnter={() => cursorChangeHandler("hovered")}
+                onMouseLeave={() => cursorChangeHandler("")}
               >
                 Live Demo
               </a>
-              <a href="https://www.github.com" target="_blank" className="btn">
+              <a
+                href="https://www.github.com"
+                target="_blank"
+                className="btn"
+                onMouseEnter={() => cursorChangeHandler("hovered")}
+                onMouseLeave={() => cursorChangeHandler("")}
+              >
                 Github
               </a>
             </div>
@@ -44,10 +55,18 @@ function Portfolio() {
                 href="https://www.github.com"
                 target="_blank"
                 className="btn btn-primary"
+                onMouseEnter={() => cursorChangeHandler("hovered")}
+                onMouseLeave={() => cursorChangeHandler("")}
               >
                 Live Demo
               </a>
-              <a href="https://www.github.com" target="_blank" className="btn">
+              <a
+                href="https://www.github.com"
+                target="_blank"
+                className="btn"
+                onMouseEnter={() => cursorChangeHandler("hovered")}
+                onMouseLeave={() => cursorChangeHandler("")}
+              >
                 Github
               </a>
             </div>
@@ -64,6 +83,8 @@ function Portfolio() {
                 href="https://akashmore1.github.io/Tik-Tak-Toe/"
                 target="_blank"
                 className="btn btn-primary"
+                onMouseEnter={() => cursorChangeHandler("hovered")}
+                onMouseLeave={() => cursorChangeHandler("")}
               >
                 Live Demo
               </a>
@@ -71,6 +92,8 @@ function Portfolio() {
                 href="https://github.com/akashmore1/Tik-Tak-Toe"
                 target="_blank"
                 className="btn"
+                onMouseEnter={() => cursorChangeHandler("hovered")}
+                onMouseLeave={() => cursorChangeHandler("")}
               >
                 Github
               </a>
